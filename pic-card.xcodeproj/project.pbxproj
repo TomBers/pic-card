@@ -18,6 +18,7 @@
 		0ED7C231178CAD61004F255E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C230178CAD61004F255E /* Default-568h@2x.png */; };
 		0ED7C234178CAD61004F255E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7C233178CAD61004F255E /* ViewController.m */; };
 		0ED7C237178CAD61004F255E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C235178CAD61004F255E /* ViewController.xib */; };
+		0ED7C23E178CADF8004F255E /* pif-fit_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C23D178CADF8004F255E /* pif-fit_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		0ED7C232178CAD61004F255E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0ED7C233178CAD61004F255E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0ED7C236178CAD61004F255E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0ED7C23D178CADF8004F255E /* pif-fit_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pif-fit_logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		0ED7C221178CAD61004F255E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0ED7C23D178CADF8004F255E /* pif-fit_logo.png */,
 				0ED7C222178CAD61004F255E /* pic-card-Info.plist */,
 				0ED7C223178CAD61004F255E /* InfoPlist.strings */,
 				0ED7C226178CAD61004F255E /* main.m */,
@@ -163,6 +166,7 @@
 				0ED7C22F178CAD61004F255E /* Default@2x.png in Resources */,
 				0ED7C231178CAD61004F255E /* Default-568h@2x.png in Resources */,
 				0ED7C237178CAD61004F255E /* ViewController.xib in Resources */,
+				0ED7C23E178CADF8004F255E /* pif-fit_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
