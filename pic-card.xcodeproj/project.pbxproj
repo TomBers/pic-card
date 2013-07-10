@@ -302,6 +302,7 @@
 				0ED7C23C178CAD61004F255E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

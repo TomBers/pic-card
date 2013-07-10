@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate> {
+    UITableView *eventTableView;
+}
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *eventAddButton;
+
+@property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
+
+- (IBAction)addEvent:(id)sender;
 
 @end
