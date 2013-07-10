@@ -15,7 +15,9 @@
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *eventAddButton;
 
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
+@property (strong,nonatomic) NSMutableDictionary *eventSectionData;
+@property (strong,nonatomic) NSMutableArray *eventData;
 
 - (IBAction)addEvent:(id)sender;
-
+- (void)addRowToEventsTable:(NSString *) rowText;
 @end
