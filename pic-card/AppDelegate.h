@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class ContactsViewController;
+@class RootViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ContactsViewController *viewController;
+@property (strong, nonatomic) RootViewController *viewController;
 
 @end

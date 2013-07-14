@@ -7,17 +7,17 @@
 //
 
 #import "AppDelegate.h"
-
-#import "ContactsViewController.h"
+#import "RootViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[ContactsViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+//    // Override point for customization after application launch.
+//    self.viewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+//    self.window.rootViewController = self.viewController;
+    [[NSBundle mainBundle] loadNibNamed:@"RootViewController" owner:self options:nil];
     [self.window makeKeyAndVisible];
     return YES;
 }

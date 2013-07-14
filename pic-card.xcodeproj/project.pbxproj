@@ -19,6 +19,15 @@
 		0ED7C234178CAD61004F255E /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7C233178CAD61004F255E /* ContactsViewController.m */; };
 		0ED7C237178CAD61004F255E /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C235178CAD61004F255E /* ContactsViewController.xib */; };
 		0ED7C23E178CADF8004F255E /* pif-fit_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C23D178CADF8004F255E /* pif-fit_logo.png */; };
+		0ED7C3591792DDEE004F255E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7C3571792DDEE004F255E /* RootViewController.m */; };
+		0ED7C35A1792DDEE004F255E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C3581792DDEE004F255E /* RootViewController.xib */; };
+		0ED7C35E1792DFDA004F255E /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7C35C1792DFD9004F255E /* CameraViewController.m */; };
+		0ED7C35F1792DFDA004F255E /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C35D1792DFD9004F255E /* CameraViewController.xib */; };
+		0ED7C3631792E000004F255E /* LandingScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7C3611792E000004F255E /* LandingScreenViewController.m */; };
+		0ED7C3641792E000004F255E /* LandingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C3621792E000004F255E /* LandingScreenViewController.xib */; };
+		0ED7C3661792E0F8004F255E /* piccard_landing_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C3651792E0F8004F255E /* piccard_landing_screen.png */; };
+		0ED7C3681792E18F004F255E /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C3671792E18E004F255E /* camera.png */; };
+		0ED7C36B1792E6A9004F255E /* ContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7C36A1792E6A9004F255E /* ContentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +48,19 @@
 		0ED7C233178CAD61004F255E /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
 		0ED7C236178CAD61004F255E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ContactsViewController.xib; sourceTree = "<group>"; };
 		0ED7C23D178CADF8004F255E /* pif-fit_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pif-fit_logo.png"; sourceTree = "<group>"; };
+		0ED7C3561792DDED004F255E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0ED7C3571792DDEE004F255E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0ED7C3581792DDEE004F255E /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		0ED7C35B1792DFD9004F255E /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		0ED7C35C1792DFD9004F255E /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		0ED7C35D1792DFD9004F255E /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		0ED7C3601792DFFF004F255E /* LandingScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingScreenViewController.h; sourceTree = "<group>"; };
+		0ED7C3611792E000004F255E /* LandingScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingScreenViewController.m; sourceTree = "<group>"; };
+		0ED7C3621792E000004F255E /* LandingScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingScreenViewController.xib; sourceTree = "<group>"; };
+		0ED7C3651792E0F8004F255E /* piccard_landing_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piccard_landing_screen.png; sourceTree = "<group>"; };
+		0ED7C3671792E18E004F255E /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		0ED7C3691792E6A9004F255E /* ContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentController.h; sourceTree = "<group>"; };
+		0ED7C36A1792E6A9004F255E /* ContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +109,16 @@
 			children = (
 				0ED7C229178CAD61004F255E /* AppDelegate.h */,
 				0ED7C22A178CAD61004F255E /* AppDelegate.m */,
+				0ED7C35B1792DFD9004F255E /* CameraViewController.h */,
+				0ED7C35C1792DFD9004F255E /* CameraViewController.m */,
 				0ED7C232178CAD61004F255E /* ContactsViewController.h */,
 				0ED7C233178CAD61004F255E /* ContactsViewController.m */,
+				0ED7C3691792E6A9004F255E /* ContentController.h */,
+				0ED7C36A1792E6A9004F255E /* ContentController.m */,
+				0ED7C3601792DFFF004F255E /* LandingScreenViewController.h */,
+				0ED7C3611792E000004F255E /* LandingScreenViewController.m */,
+				0ED7C3561792DDED004F255E /* RootViewController.h */,
+				0ED7C3571792DDEE004F255E /* RootViewController.m */,
 				0ED7C3501792D9D7004F255E /* Views */,
 				0ED7C221178CAD61004F255E /* Supporting Files */,
 			);
@@ -98,6 +128,8 @@
 		0ED7C221178CAD61004F255E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0ED7C3651792E0F8004F255E /* piccard_landing_screen.png */,
+				0ED7C3671792E18E004F255E /* camera.png */,
 				0ED7C23D178CADF8004F255E /* pif-fit_logo.png */,
 				0ED7C222178CAD61004F255E /* pic-card-Info.plist */,
 				0ED7C223178CAD61004F255E /* InfoPlist.strings */,
@@ -113,6 +145,9 @@
 		0ED7C3501792D9D7004F255E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0ED7C3621792E000004F255E /* LandingScreenViewController.xib */,
+				0ED7C35D1792DFD9004F255E /* CameraViewController.xib */,
+				0ED7C3581792DDEE004F255E /* RootViewController.xib */,
 				0ED7C235178CAD61004F255E /* ContactsViewController.xib */,
 			);
 			name = Views;
@@ -175,6 +210,11 @@
 				0ED7C231178CAD61004F255E /* Default-568h@2x.png in Resources */,
 				0ED7C237178CAD61004F255E /* ContactsViewController.xib in Resources */,
 				0ED7C23E178CADF8004F255E /* pif-fit_logo.png in Resources */,
+				0ED7C35A1792DDEE004F255E /* RootViewController.xib in Resources */,
+				0ED7C35F1792DFDA004F255E /* CameraViewController.xib in Resources */,
+				0ED7C3641792E000004F255E /* LandingScreenViewController.xib in Resources */,
+				0ED7C3661792E0F8004F255E /* piccard_landing_screen.png in Resources */,
+				0ED7C3681792E18F004F255E /* camera.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +228,10 @@
 				0ED7C227178CAD61004F255E /* main.m in Sources */,
 				0ED7C22B178CAD61004F255E /* AppDelegate.m in Sources */,
 				0ED7C234178CAD61004F255E /* ContactsViewController.m in Sources */,
+				0ED7C3591792DDEE004F255E /* RootViewController.m in Sources */,
+				0ED7C35E1792DFDA004F255E /* CameraViewController.m in Sources */,
+				0ED7C3631792E000004F255E /* LandingScreenViewController.m in Sources */,
+				0ED7C36B1792E6A9004F255E /* ContentController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
