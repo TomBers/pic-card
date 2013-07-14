@@ -16,8 +16,8 @@
 		0ED7C22D178CAD61004F255E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C22C178CAD61004F255E /* Default.png */; };
 		0ED7C22F178CAD61004F255E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C22E178CAD61004F255E /* Default@2x.png */; };
 		0ED7C231178CAD61004F255E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C230178CAD61004F255E /* Default-568h@2x.png */; };
-		0ED7C234178CAD61004F255E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7C233178CAD61004F255E /* ViewController.m */; };
-		0ED7C237178CAD61004F255E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C235178CAD61004F255E /* ViewController.xib */; };
+		0ED7C234178CAD61004F255E /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7C233178CAD61004F255E /* ContactsViewController.m */; };
+		0ED7C237178CAD61004F255E /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C235178CAD61004F255E /* ContactsViewController.xib */; };
 		0ED7C23E178CADF8004F255E /* pif-fit_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED7C23D178CADF8004F255E /* pif-fit_logo.png */; };
 /* End PBXBuildFile section */
 
@@ -35,9 +35,9 @@
 		0ED7C22C178CAD61004F255E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0ED7C22E178CAD61004F255E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0ED7C230178CAD61004F255E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0ED7C232178CAD61004F255E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0ED7C233178CAD61004F255E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0ED7C236178CAD61004F255E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0ED7C232178CAD61004F255E /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		0ED7C233178CAD61004F255E /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		0ED7C236178CAD61004F255E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ContactsViewController.xib; sourceTree = "<group>"; };
 		0ED7C23D178CADF8004F255E /* pif-fit_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pif-fit_logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,9 +87,9 @@
 			children = (
 				0ED7C229178CAD61004F255E /* AppDelegate.h */,
 				0ED7C22A178CAD61004F255E /* AppDelegate.m */,
-				0ED7C232178CAD61004F255E /* ViewController.h */,
-				0ED7C233178CAD61004F255E /* ViewController.m */,
-				0ED7C235178CAD61004F255E /* ViewController.xib */,
+				0ED7C232178CAD61004F255E /* ContactsViewController.h */,
+				0ED7C233178CAD61004F255E /* ContactsViewController.m */,
+				0ED7C3501792D9D7004F255E /* Views */,
 				0ED7C221178CAD61004F255E /* Supporting Files */,
 			);
 			path = "pic-card";
@@ -108,6 +108,14 @@
 				0ED7C230178CAD61004F255E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0ED7C3501792D9D7004F255E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7C235178CAD61004F255E /* ContactsViewController.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +173,7 @@
 				0ED7C22D178CAD61004F255E /* Default.png in Resources */,
 				0ED7C22F178CAD61004F255E /* Default@2x.png in Resources */,
 				0ED7C231178CAD61004F255E /* Default-568h@2x.png in Resources */,
-				0ED7C237178CAD61004F255E /* ViewController.xib in Resources */,
+				0ED7C237178CAD61004F255E /* ContactsViewController.xib in Resources */,
 				0ED7C23E178CADF8004F255E /* pif-fit_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,7 +187,7 @@
 			files = (
 				0ED7C227178CAD61004F255E /* main.m in Sources */,
 				0ED7C22B178CAD61004F255E /* AppDelegate.m in Sources */,
-				0ED7C234178CAD61004F255E /* ViewController.m in Sources */,
+				0ED7C234178CAD61004F255E /* ContactsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,12 +202,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		0ED7C235178CAD61004F255E /* ViewController.xib */ = {
+		0ED7C235178CAD61004F255E /* ContactsViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0ED7C236178CAD61004F255E /* en */,
 			);
-			name = ViewController.xib;
+			name = ContactsViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

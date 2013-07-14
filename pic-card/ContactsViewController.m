@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 A & T Design. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ContactsViewController.h"
 
-@interface ViewController ()
+@interface ContactsViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ContactsViewController
 
 
 
